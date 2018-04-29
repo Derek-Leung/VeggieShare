@@ -22,19 +22,21 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>                     
           </button>
-					<a class="navbar-brand logo" href="index.html"><span class= "glyphicon glyphicon-search"></span></a>
+					<a class="navbar-brand logo" onclick="searchShow()"><span class= "glyphicon glyphicon-search"></span></a>
+          <input type="text" placeholder="Search..." class="navbar-brand logo" id="searchBar"/>
           <a class="navbar-brand logo" href="index.html">Preppy</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
             <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="#">FAQ</a></li>
+            <li><a onclick="getFAQ()">FAQ</a></li>
             <li><a href="Performances.html">Recipe</a></li>
-            <li><a href="#">About Us</a></li>
+            <li><a onclick="getAbout()">About Us</a></li>
           </ul>
         </div>
       </div>
     </nav>
+    <div id="contentArea">
 		<div id="breakfast" class="container-fluid">
 			<a href="https://www.google.ca">
 			  <img src="Images/breakfast.jpg" alt="breakfast" class="img-responsive"/>
@@ -59,3 +61,26 @@
 				</div>
       </a>
 		</div>
+    </div>
+    <script>
+      /*<![CDATA[*/
+        function getAbout(){
+          $("#contentArea").load("Content/About.html");
+        }
+      
+        function getFAQ() {
+          $("#contentArea").load("Content/FAQ.html");
+        }
+        
+        function searchShow(){
+          if (document.getElementById("searchBar").value === "") {
+            $("#searchBar").slideToggle();
+          } else {
+            $("#contentArea").load("Content/Search.html");
+          }
+        }
+      /*]]>*/
+    </script>
+
+  </body>
+</html>

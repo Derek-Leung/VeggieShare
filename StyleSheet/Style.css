@@ -28,6 +28,26 @@
 	margin-bottom:0;
 }
 
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.content {
+  padding:20px;
+  padding-top: 0px;
+}
+
+.content li {
+  padding-bottom:30px;
+}
+
+#searchBar {
+  display:none;
+  height:10px;
+  width: 125px;
+}
 #breakfast, #lunch, #dinner {
 	position: relative;
 	text-align:center;
@@ -42,7 +62,7 @@
 }
 
 #breakfastText, #lunchText, #dinnerText {
-	  font-family: 'Fjalla One', sans-serif;
+/*	  font-family: 'Fjalla One', sans-serif;*/
     position: absolute;
     top: 50%;
     left: 50%;
