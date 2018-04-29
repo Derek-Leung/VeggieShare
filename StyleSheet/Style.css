@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+@media (min-width: 768px) {
+  .navbar-header {
+    float: right;
+  }
+}
+
+.navbar-brand {
+  float:right;
+}
+
+.navbar-toggle {
+  float: left;
+  margin-left: 15px;
+  margin-right: 0;
+}
+.logo {
+	font-family: Pacifico;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	color:white;
+}
+
+.navbar{
+	margin-bottom:0;
+}
+
+#breakfast, #lunch, #dinner {
+	position: relative;
+	text-align:center;
+	color:white;
+	padding: 0;
+}
+
+#breakfast img, #lunch img, #dinner img{
+	filter: brightness(50%);
+	width: 100%;
+	height: auto;
+}
+
+#breakfastText, #lunchText, #dinnerText {
+	  font-family: 'Fjalla One', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+	  transform:translate(-50%, -50%);
+}
+
+
+a:link{
+	color: white;
+}
+
+
+
