@@ -30,7 +30,7 @@
           <ul class="nav navbar-nav">
             <li class="active"><a href="index.html">Home</a></li>
             <li><a onclick="getFAQ()">FAQ</a></li>
-            <li><a href="Performances.html">Recipe</a></li>
+            <li><a onclick="getRecipe()">Recipe</a></li>
             <li><a onclick="getAbout()">About Us</a></li>
           </ul>
         </div>
@@ -71,7 +71,9 @@
         function getFAQ() {
           $("#contentArea").load("Content/FAQ.html");
         }
-        
+        function getRecipe() {
+          $("#contentArea").load("Content/Recipe.html");
+        }
         function searchShow(){
           if (document.getElementById("searchBar").value === "") {
             $("#searchBar").slideToggle();
