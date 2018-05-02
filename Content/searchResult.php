@@ -1,10 +1,11 @@
 <?php
 
-
+    $keyword = strval($_POST['query']);
+	  $search_param = "{$keyword}%";
     $servername = "localhost";
     $dblogin = "root";
     $password = "";
-    $dbname = "recipesTesting";
+    $dbname = "recipetest";
 
 	  $methodType = $_SERVER['REQUEST_METHOD'];
     $data = array("status" => "fail", "msg" => "On $methodType");
@@ -26,12 +27,25 @@
 								// set the PDO error mode to exception
 								$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-								$sql = "SELECT * FROM recipes";
+								$sql = "SELECT * FROM customer WHERE first_name LIKE ?";
+							  $sql2 = "SELECT * FROM address WHERE first_name LIKE ?";
 
 								$statement1 = $conn->prepare($sql);
 								$statement1->execute();
-           			
-							  $data = array("status" => "fail", "msg" => "On $methodType", "recipes" => $statement1->fetchAll(PDO::FETCH_ASSOC));
+							  
+							  $statement2 = $conn->prepare($sql2);
+								$statement2->execute();
+              
+           			$result = $sql->get_result();
+
+//							  $data = array("status" => "fail", "msg" => "On $methodType", "customer" => $statement1->fetchAll(PDO::FETCH_ASSOC), "address" => $statement2->fetchAll(PDO::FETCH_ASSOC));
+                if ($result->num_rows > 0) {
+                    while($row = $result->fetch_assoc()) {
+                    $firstNameResult[] = $row["first_name"];
+                    }
+                    echo json_encode($firstNameResult);
+                  }
+                  $conn->close();
 
 
 						} catch(PDOException $e) {
@@ -59,3 +73,23 @@
 
 ?>
 
+<!--
+<?php		
+	$keyword = strval($_POST['query']);
+	$search_param = "{$keyword}%";
+	$conn =new mysqli('localhost', 'root', '' , 'blog_samples');
+
+	$sql = $conn->prepare("SELECT * FROM tbl_country WHERE country_name LIKE ?");
+	$sql->bind_param("s",$search_param);			
+	$sql->execute();
+	$result = $sql->get_result();
+	if ($result->num_rows > 0) {
+		while($row = $result->fetch_assoc()) {
+		$countryResult[] = $row["country_name"];
+		}
+		echo json_encode($countryResult);
+	}
+	$conn->close();
+?>
+
+-->
