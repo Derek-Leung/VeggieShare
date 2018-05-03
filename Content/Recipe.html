@@ -1,5 +1,4 @@
-<p id='p1'>This is only for me to test PHP codes!</p>
-<div id="jsonTable"></div>
+<div id="recipeTable"></div>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>
@@ -11,36 +10,27 @@
                 type: "GET",
                 data: {output: 'json'},
                 success: function(data) {
-                    console.log(data);
-                    var content = "<table><tr><th>ID</th><th>First Name</th><th>Last Name</th><th>Email</th></tr>";
-                    for (var x = 0; x < data.customer.length; x++){
-                      content += '<tr><td>' + data.customer[x].ID;
-                      content += "</td><td>";
-                      content += data.customer[x].first_name;
-                      content += "</td><td>";
-                      content += data.customer[x].last_name;
-                      content += "</td><td>";
-                      content += data.customer[x].email;
-                      content += "</td></tr>";
+                    
+                    for (var x = 0; x < data.recipes.length; x++){
+                      var container = document.createElement("div");
+                      $(container).addClass("container-fluid");
+                      var txt2 = document.createElement("h3");
+                      txt2.style.textAlign = "center";
+                      txt2.innerHTML = data.recipes[x].recipeName;
+                      var image = document.createElement("img");
+                      image.style.marginLeft = "5%";
+                      image.style.marginRight = "5%";
+                      image.style.height = "175px";
+                      image.style.width = "90%";
+                      image.setAttribute("src", data.recipes[x].image);
+                      var test = document.getElementById("recipeTable");
+                      container.appendChild(txt2);
+                      container.appendChild(image);
+                      test.appendChild(container);
+                      test.style.margin = "0";
+                      test.style.padding = "0";
                     }
-                    content += "</table>";
-									
-				    			  content += "<table><tr><th>ID</th><th>Postal Code</th><th>Street Name</th>     <th>Number</th><th>Province</th></tr>";
-                    for (var y = 0; y < data.address.length; y++){
-                      content += '<tr><td>' + data.address[y].ID;
-                      content += "</td><td>";
-                      content += data.address[y].postal_code;
-                      content += "</td><td>";
-                      content += data.address[y].street_name;
-                      content += "</td><td>";
-                      content += data.address[y].number;
-                      content += "</td><td>";
-                      content += data.address[y].province;
-                      content += "</td></tr>";
-                    }
-                  content += "</table>";
-                  $("#jsonTable").html(content);
-                  
+        
                 },
                error: function(jqXHR, textStatus, errorThrown) {
                  $("#p1").text(textStatus + " " + errorThrown

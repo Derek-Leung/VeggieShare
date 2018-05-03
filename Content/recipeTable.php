@@ -1,10 +1,10 @@
 <?php
 
 
-    $servername = "localhost";
-    $dblogin = "root";
-    $password = "";
-    $dbname = "recipetest";
+    $servername = "xray.gendns.com";
+    $dblogin = "preppyfu_admin";
+    $password = "adminadmin";
+    $dbname = "preppyfu_2910";
 
 	  $methodType = $_SERVER['REQUEST_METHOD'];
     $data = array("status" => "fail", "msg" => "On $methodType");
@@ -26,16 +26,12 @@
 								// set the PDO error mode to exception
 								$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-								$sql = "SELECT * FROM customer";
-							  $sql2 = "SELECT * FROM address";
+								$sql = "SELECT * FROM recipes";
 
 								$statement1 = $conn->prepare($sql);
 								$statement1->execute();
-							  
-							  $statement2 = $conn->prepare($sql2);
-								$statement2->execute();
            			
-							  $data = array("status" => "fail", "msg" => "On $methodType", "customer" => $statement1->fetchAll(PDO::FETCH_ASSOC), "address" => $statement2->fetchAll(PDO::FETCH_ASSOC));
+							  $data = array("status" => "fail", "msg" => "On $methodType", "recipes" => $statement1->fetchAll(PDO::FETCH_ASSOC));
 
 
 						} catch(PDOException $e) {
