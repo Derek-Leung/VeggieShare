@@ -10,8 +10,14 @@
                 type: "GET",
                 data: {output: 'json'},
                 success: function(data) {
+<<<<<<< HEAD
                     
                     for (var x = 0; x < data.recipes.length; x++){
+=======
+                    console.log(data);
+                    for (var x = 0; x < data.recipes.length; x++){
+											var a = document.createElement('a');
+>>>>>>> 3b751b6726138c311120ab364d951ad529c76ee1
                       var container = document.createElement("div");
                       $(container).addClass("container-fluid");
                       var txt2 = document.createElement("h3");
@@ -24,11 +30,25 @@
                       image.style.width = "90%";
                       image.setAttribute("src", data.recipes[x].image);
                       var test = document.getElementById("recipeTable");
+<<<<<<< HEAD
                       container.appendChild(txt2);
                       container.appendChild(image);
                       test.appendChild(container);
                       test.style.margin = "0";
                       test.style.padding = "0";
+=======
+                      
+                      test.appendChild(container);
+                      test.style.margin = "0";
+                      test.style.padding = "0";
+											
+											a.appendChild(txt2);
+											a.appendChild(image);
+//											let recipeNum = data.recipes[x].recipeID;
+											a.setAttribute("onclick", "getRecipeStep(" + data.recipes[x].recipeID + ")");
+											container.appendChild(a);
+											recipeTable.appendChild(container);
+>>>>>>> 3b751b6726138c311120ab364d951ad529c76ee1
                     }
         
                 },
@@ -37,8 +57,27 @@
                                + jqXHR.responseText);
                     } 
                   });
-
-          });
+						 
+						 });
+					function getRecipeStep(num){
+							 $.ajax({
+                url: "./Content/searchStep.php",
+                dataType: "json",
+                type: "GET",
+                data: {output: num},
+                success: function(data) {
+                  console.log(data);
+                  var stepTable = "<table><tr><th>Step Number</th><th>Step Description</th></tr>";
+									for( var i = 0; i < data.steps.length; i++){
+                    stepTable += "<tr><td>" + data.steps[i].stepNum;
+                    stepTable += "</td><td>" + data.steps[i].description;
+                    stepTable += "</td></tr>";
+                  }
+                  stepTable += "</table>";
+                  $("#recipeTable").html(stepTable);
+								}
+							})
+          	};
     /*]]>*/
 </script>
 
