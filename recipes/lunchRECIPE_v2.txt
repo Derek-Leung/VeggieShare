@@ -1,0 +1,8 @@
+
+INSERT INTO RECIPE (recipeID, recipeName, category, foodCategory) VALUES ('#', 'Southwest Roll-Ups', 'lunch', 'roll-ups', 'https://www.allrecipes.com/recipe/236904/southwest-roll-ups/photos/3780464/');
+
+INSERT INTO RECIPE (recipeID, recipeName, category, foodCategory) VALUES ('#', 'Philly Cheesesteak Sandwich with Garlic Mayo', 'lunch', 'sandwich', 'https://www.allrecipes.com/recipe/236904/southwest-roll-ups/photos/3780464/');
+
+INSERT INTO RECIPE (recipeID, recipeName, category, foodCategory) VALUES ('#', 'Amish Macaroni Salad', 'lunch', 'salad', 'https://www.allrecipes.com/recipe/236904/southwest-roll-ups/photos/3780464/');
+
+INSERT INTO RECIPE (recipeID, recipeName, category, foodCategory) VALUES ('#', 'World's Best Potato Salad', 'lunch', 'salad', 'https://www.allrecipes.com/recipe/236904/southwest-roll-ups/photos/3780464/');

@@ -9,8 +9,7 @@
                 dataType: "json",
                 type: "GET",
                 data: {output: 'json'},
-                success: function(data) {
-                    
+                success: function(data) {   
                     for (var x = 0; x < data.recipes.length; x++){
                       var container = document.createElement("div");
                       $(container).addClass("container-fluid");
