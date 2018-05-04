@@ -1,0 +1,46 @@
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'g quinoa');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'can black beans, rinsed and drained');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'red bell pepper, chopped');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'g fresh spinach leaves');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'ml barbeque sauce');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'g chopped garlic');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'pinch ground cumin, or more to taste');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'pinch cayenne pepper, or more to taste');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'g shredded Cheddar cheese');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'flour tortillas, warmed');
+
+
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'ml mayonnaise');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'clove garlic, minced');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'ml olive oil');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'g beef round steak, cut into thin strips');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'green bell peppers, cut into 1/4 inch strips');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'onions, sliced into rings');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'salt and pepper to taste');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'hoagie rolls, split lengthwise and toasted');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'package shredded mozzarella cheese');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'g dried oregano');
+
+
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'g uncooked elbow macaroni');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'hard-cooked eggs, chopped');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'small onion, chopped');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'stalk celery, chopped');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'small red bell pepper, seeded and chopped');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'g dill pickle relish');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'g creamy salad dressing (e.g. Miracle Whip)');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'ml prepared yellow mustard');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'g white sugar');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'ml white vinegar');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'g salt');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'g celery seed');
+
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'medium potatoes');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'small onion, finely chopped');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'celery, chopped');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'hard-cooked eggs, diced');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'eggs, beaten');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'g cornstarch');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'ml vinegar');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'can evaporated milk');
+INSERT INTO INGREDIENT (ingredientID, ingredientName, measurement) VALUES ('#', 'g butter');

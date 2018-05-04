@@ -1,0 +1,22 @@
+Southwest Roll-Ups
+INSERT INTO Step (recipeID, stepNum, description) VALUES ('#', '1', 'Bring water and quinoa to a boil in a saucepan. Reduce heat to medium-low, cover, and simmer until quinoa is tender and water has been absorbed, 15 to 20 minutes.');
+INSERT INTO Step (recipeID, stepNum, description) VALUES ('#', '2', 'While quinoa cooks, mix black beans, red bell pepper, spinach, barbeque sauce, garlic, cumin, and cayenne pepper together in a saucepan over medium heat. Stir in Cheddar cheese and cook, stirring occasionally, until the cheese is completely melted, 5 to 10 minutes. Remove from heat and stir in cooked quinoa.');
+INSERT INTO Step (recipeID, stepNum, description) VALUES ('#', '3', 'Place tortillas on a flat work surface. Spoon filling in a line across the middle of each tortilla; fold in opposing edges to overlap the filling. Roll up as you would burritos.');
+
+
+Philly Cheesesteak Sandwich with Garlic Mayo
+INSERT INTO Step (recipeID, stepNum, description) VALUES ('#', '1', 'In a small bowl, combine mayonnaise and minced garlic. Cover, and refrigerate. Preheat oven to 500 degrees F (260 degrees C).');
+INSERT INTO Step (recipeID, stepNum, description) VALUES ('#', '2', 'Heat oil in a large skillet over medium heat. Saute beef until lightly browned. Stir in green pepper and onion, and season with salt and pepper. Saute until vegetables are tender, and remove from heat.');
+INSERT INTO Step (recipeID, stepNum, description) VALUES ('#', '3', 'Spread each bun generously with garlic mayonnaise. Divide beef mixture into the buns. Top with shredded cheese, and sprinkle with oregano. Place sandwiches on a baking pan.');
+INSERT INTO Step (recipeID, stepNum, description) VALUES ('#', '4', 'Heat sandwiches in preheated oven, until cheese is melted or slightly browned.');
+
+
+
+Amish Macaroni Salad
+INSERT INTO Step (recipeID, stepNum, description) VALUES ('#', '1', 'Bring a pot of lightly salted water to a boil. Add macaroni, and cook for 8 to 10 minutes, until tender. Drain, and set aside to cool.');
+INSERT INTO Step (recipeID, stepNum, description) VALUES ('#', '2', 'In a large bowl, stir together the eggs, onion, celery, red pepper, and relish. In a small bowl, stir together the salad dressing, mustard, white sugar, vinegar, salt and celery seed. Pour over the vegetables, and stir in macaroni until well blended. Cover and chill for at least 1 hour before serving.');
+
+World's Best Potato Salad
+INSERT INTO Step (recipeID, stepNum, description) VALUES ('#', '1', 'Place the potatoes into a large pot, and fill with enough water to cover. Bring to a boil, and cook for about 20 minutes, or until easily pierced with a fork. Drain. Cool, peel and dice. Transfer to a large bowl, and toss with the onion, celery,  teaspoon of salt, and hard-cooked eggs.');
+INSERT INTO Step (recipeID, stepNum, description) VALUES ('#', '2', 'While the potatoes are cooking, whisk together eggs, sugar, cornstarch, and salt in a saucepan. Stir in the vinegar, milk, and mustard. Cook over medium heat, stirring frequently, until thickened, about 10 minutes. Remove from heat, and stir in the butter. Refrigerate until cool, then stir in the mayonnaise.');
+INSERT INTO Step (recipeID, stepNum, description) VALUES ('#', '3', 'Stir the dressing into the bowl of potato salad gently until evenly coated. Chill several hours or overnight before serving for best flavor.');
