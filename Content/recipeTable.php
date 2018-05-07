@@ -1,23 +1,23 @@
 <?php
 
-    $servername = "xray.gendns.com";
-    $dblogin = "preppyfu_admin";
-    $password = "adminadmin";
-    $dbname = "preppyfu_2910";
 
-<<<<<<< HEAD
+
     $servername = "localhost";
     $dblogin = "root";
     $password = "";
-    $dbname = "2910";
-=======
->>>>>>> 3b751b6726138c311120ab364d951ad529c76ee1
+    $dbname = "recipesTesting";
 
 	  $methodType = $_SERVER['REQUEST_METHOD'];
     $data = array("status" => "fail", "msg" => "On $methodType");
 
-    if ($methodType === 'GET') {
-        if(isset($_GET['output'])) {
+    //echo $methodType;
+    //var_dump($transaction);
+
+    // to see you will need to type this in the URL bar of your browser:
+    // http://localhost/lab_7/lab_07_GetTable.php?output=json
+    // Note: you may also need to include a port (check XAMPP/WAMP/LAMP/MAMP for the port)
+//    if ($methodType === 'GET') {
+//        if(isset($_GET['output'])) {
             $output = $_GET['output'];
 
 
