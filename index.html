@@ -23,7 +23,6 @@
               <span class="icon-bar"></span>                     
           </button>
 					<a class="navbar-brand logo" onclick="searchShow()"><span class= "glyphicon glyphicon-search"></span></a>
-          <input type="text" placeholder="Search..." class="navbar-brand logo" id="searchBar"/>
           <a class="navbar-brand logo" href="index.html">Preppy</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
@@ -38,7 +37,7 @@
     </nav>
     <div id="contentArea">
 		<div id="breakfast" class="container-fluid">
-			<a href="https://www.google.ca">
+			<a onclick="getFoodCategory('breakfast')">
 			  <img src="Images/breakfast.jpg" alt="breakfast" class="img-responsive"/>
 				<div id="breakfastText" class="container-fluid">
 					<h2>BREAKFAST</h2>
@@ -46,7 +45,7 @@
 			</a>
 		</div>
 		<div id="lunch" class="container-fluid">
-      <a href="https://www.google.ca">
+      <a onclick="getFoodCategory('lunch')">
 		    <img src="Images/lunch.jpg" alt="lunch" class="img-responsive"/>
 			  <div id="lunchText" class="container-fluid">
 					<h2>LUNCH</h2>
@@ -54,7 +53,7 @@
       </a>
  		</div>
 		<div id="dinner" class="container-fluid">
-      <a href="https://www.google.ca">
+      <a onclick="getFoodCategory('dinner')">
 		    <img src="Images/dinner.jpg" alt="dinner" class="img-responsive"/>
 			  <div id="dinnerText" class="container-fluid">
 					<h2>DINNER</h2>
@@ -64,9 +63,8 @@
     </div>
     <script>
       /*<![CDATA[*/
-//      $(document).ready(function () {
-   
-        function getAbout(){
+      
+        function getAbout() {
           $("#contentArea").load("Content/About.html");
         }
       
@@ -76,14 +74,33 @@
         function getRecipe() {
           $("#contentArea").load("Content/Recipe.html");
         }
-        function searchShow(){
-          if (document.getElementById("searchBar").value === "") {
-            $("#searchBar").slideToggle();
-          } else {
-            $("#contentArea").load("Content/Search.html");
-          }
+        function searchShow() {
+          $("#contentArea").load("Content/SearchPage.html");
         }
-//      });
+      
+      
+        function getFoodCategory(category){
+          $.ajax({
+                  url: "getSearchResult.php",
+                  dataType: "json",
+                  type: "GET",
+                  data: {output: category},
+                  success: function(data) {
+                    console.log(data);
+                    var content = "<table><tr><th>Recipe Name</th><th>Image</th></tr>";
+                    for (var i=0; i < data.root.body.results.length; i++){
+                      content += "<tr><td><a onclick=\"getRecipeStep(" + data.root.body.results[i].id + ")\">" + data.root.body.results[i].title;
+                      content += "</a></td><td><a onclick=\"getRecipeStep(" + data.root.body.results[i].id + ")\"><img src=\"" + data.root.body.baseUri + data.root.body.results[i].image + "\"/></a></td></tr>";
+                    }
+                    content += "</table>";
+                    $("#content").html(content);
+                  },
+                    error: function(jqXHR, textStatus, errorThrown) {
+                      $("#content").text(textStatus + " " + errorThrown
+                               + jqXHR.responseText);
+                    } 
+          });
+        }
       /*]]>*/
     </script>
 

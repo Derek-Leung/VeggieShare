@@ -44,7 +44,7 @@ body {
 }
 
 #searchBar {
-  display:none;
+/*  visibility:none;*/
   height:10px;
   width: 125px;
 }
@@ -124,5 +124,8 @@ span.twitter-typeahead .tt-suggestion:last-child {
 	width: 100%;
 	height: auto;
 }
-
+#searchTest{
+  width:500px;
+  height:500px;
+}
 
