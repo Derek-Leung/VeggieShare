@@ -63,7 +63,7 @@
     </div>
     <script>
       /*<![CDATA[*/
-      
+      	var recipeData = null;
         function getAbout() {
           $("#contentArea").load("Content/About.html");
         }
@@ -81,7 +81,7 @@
       
         function getFoodCategory(category){
           $.ajax({
-                  url: "getSearchResult.php",
+                  url: "./Content/getSearchResult.php",
                   dataType: "json",
                   type: "GET",
                   data: {output: category},
@@ -93,14 +93,50 @@
                       content += "</a></td><td><a onclick=\"getRecipeStep(" + data.root.body.results[i].id + ")\"><img src=\"" + data.root.body.baseUri + data.root.body.results[i].image + "\"/></a></td></tr>";
                     }
                     content += "</table>";
-                    $("#content").html(content);
+                    $("#contentArea").html(content);
                   },
                     error: function(jqXHR, textStatus, errorThrown) {
-                      $("#content").text(textStatus + " " + errorThrown
+                      $("#contentArea").text(textStatus + " " + errorThrown
                                + jqXHR.responseText);
                     } 
           });
         }
+			function getRecipeStep(num){
+						$.ajax({
+                  url: "./Content/getSearchSteps.php",
+                  dataType: "json",
+                  type: "GET",
+                  data: {output: num},
+                  success: function(data) {
+										recipeData = data;
+										console.log(recipeData);
+												var recipeInfo = "<h1>" + recipeData.root.body.title + "</h1><br/>";
+												recipeInfo += "<img src=\"" + recipeData.root.body.image + "\"/>";
+												recipeInfo += "<h2>Preparation Time (Minutes) : </h2>" + recipeData.root.body.preparationMinutes + "<br/>";
+												recipeInfo += "<h2>Cooking Time (Minutes) : </h2>" + recipeData.root.body.cookingMinutes + "<br/>";
+												recipeInfo += "<h2>Ingredients</h2><br/><div id=\"ingredientsTable\"><table>";
+												for (var y =0; y < recipeData.root.body.extendedIngredients.length; y++){
+													recipeInfo += "<tr><td>" + (recipeData.root.body.extendedIngredients[y].measures.metric.amount / recipeData.root.body.servings) + " " + recipeData.root.body.extendedIngredients[y].measures.metric.unitLong + " " + recipeData.root.body.extendedIngredients[y].name + "</td></tr>";               
+												}
+												recipeInfo += "</table></div><br/>";
+												recipeInfo += "<h2 onclick=\"changeServings(5)\">Instructions</h2><br/><table>";
+												for(var n =0; n < recipeData.root.body.analyzedInstructions[0].steps.length; n++){
+													recipeInfo += "<tr><td>" + recipeData.root.body.analyzedInstructions[0].steps[n].number + ": " + recipeData.root.body.analyzedInstructions[0].steps[n].step + "</td></tr>"
+												}
+												recipeInfo += "</table>"
+											console.log(recipeInfo);
+												$("#contentArea").html(recipeInfo);
+										}
+									})
+          	};
+      function changeServings(servingFactor){
+        var updateTable = "<table>";
+        for (var a =0; a < recipeData.root.body.extendedIngredients.length; a++){
+                  updateTable += "<tr><td>" + (recipeData.root.body.extendedIngredients[a].measures.metric.amount / recipeData.root.body.servings * servingFactor) + " " + recipeData.root.body.extendedIngredients[a].measures.metric.unitLong + " " + recipeData.root.body.extendedIngredients[a].name + "</td></tr>";
+                }
+        updateTable += "</table>";
+        $("#ingredientsTable").html(updateTable);
+      }
       /*]]>*/
     </script>
 

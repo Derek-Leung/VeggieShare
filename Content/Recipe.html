@@ -4,6 +4,7 @@
 <script>
     /*<![CDATA[*/
     var recipeData = null;
+    var recipeID = null;
     $(document).ready(function() {
              $.ajax({
                 url: "./Content/getRandomRecipe.php",
@@ -32,16 +33,17 @@
 
             for (var x=0; x < recipeData.root.body.recipes.length; x++){
               if (num == recipeData.root.body.recipes[x].id){
+                recipeID = x;
                 var recipeInfo = "<h1>" + recipeData.root.body.recipes[x].title + "</h1><br/>";
                 recipeInfo += "<img src=\"" + recipeData.root.body.recipes[x].image + "\"/>";
                 recipeInfo += "<h2>Preparation Time (Minutes) : </h2>" + recipeData.root.body.recipes[x].preparationMinutes + "<br/>";
                 recipeInfo += "<h2>Cooking Time (Minutes) : </h2>" + recipeData.root.body.recipes[x].cookingMinutes + "<br/>";
-                recipeInfo += "<h2>Ingredients</h2><br/><table>";
+                recipeInfo += "<h2>Ingredients</h2><br/><div id=\"ingredientsTable\"><table>";
                 for (var y =0; y < recipeData.root.body.recipes[x].extendedIngredients.length; y++){
-                  recipeInfo += "<tr><td>" + recipeData.root.body.recipes[x].extendedIngredients[y].original + "</td></tr>";
+                  recipeInfo += "<tr><td>" + (recipeData.root.body.recipes[x].extendedIngredients[y].measures.metric.amount / recipeData.root.body.recipes[x].servings) + " " + recipeData.root.body.recipes[x].extendedIngredients[y].measures.metric.unitLong + " " + recipeData.root.body.recipes[x].extendedIngredients[y].name + "</td></tr>";               
                 }
-                recipeInfo += "</table><br/>";
-                recipeInfo += "<h2>Instructions</h2><br/><table>";
+                recipeInfo += "</table></div><br/>";
+                recipeInfo += "<h2 onclick=\"changeServings(5)\">Instructions</h2><br/><table>";
                 for(var n =0; n < recipeData.root.body.recipes[x].analyzedInstructions[0].steps.length; n++){
                   recipeInfo += "<tr><td>" + recipeData.root.body.recipes[x].analyzedInstructions[0].steps[n].number + ": " + recipeData.root.body.recipes[x].analyzedInstructions[0].steps[n].step + "</td></tr>"
                 }
@@ -50,6 +52,15 @@
               }
             }
           	};
+      function changeServings(servingFactor){
+        var updateTable = "<table>";
+        for (var a =0; a < recipeData.root.body.recipes[recipeID].extendedIngredients.length; a++){
+          
+                  updateTable += "<tr><td>" + (recipeData.root.body.recipes[recipeID].extendedIngredients[a].measures.metric.amount / recipeData.root.body.recipes[recipeID].servings * servingFactor) + " " + recipeData.root.body.recipes[recipeID].extendedIngredients[a].measures.metric.unitLong + " " + recipeData.root.body.recipes[recipeID].extendedIngredients[a].name + "</td></tr>";
+                }
+        updateTable += "</table>";
+        $("#ingredientsTable").html(updateTable);
+      }
     /*]]>*/
 </script>
 
