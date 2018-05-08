@@ -18,6 +18,7 @@
                   data: {output: str},
                   success: function(data) {
                     console.log(data);
+                      if(str !== "lamb sauce"){
                     var content = "<table><tr><th>Recipe Name</th><th>Image</th></tr>";
                     for (var i=0; i < data.root.body.results.length; i++){
                       content += "<tr><td><a onclick=\"getRecipeStep(" + data.root.body.results[i].id + ")\">" + data.root.body.results[i].title;
@@ -25,6 +26,13 @@
                     }
                     content += "</table>";
                     $("#content").html(content);
+                      }
+                      else{
+                          content += "<iframe width="420" height="315"
+src="https://www.youtube.com/embed/9SNNbcG-ma0">
+</iframe>"
+                           $("#content").html(content);
+                      }
                   },
                     error: function(jqXHR, textStatus, errorThrown) {
                       $("#content").text(textStatus + " " + errorThrown
