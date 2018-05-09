@@ -129,7 +129,6 @@ span.twitter-typeahead .tt-suggestion:last-child {
   height:500px;
 }
 
-#searchCuisine, #searchType, #searchDiet{
+#searchCuisine, #searchType, #searchDiet, #valSmall, #valMed, #valBig{
     color: black;
 }
-
