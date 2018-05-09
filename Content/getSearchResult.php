@@ -13,7 +13,7 @@
             
             $response = Unirest\Request::get("https://spoonacular-recipe-food-nutrition-v1.p.mashape.com/recipes/search?query=" . $output . "&offset=0&number=10",
             array(
-                "X-Mashape-Key" => "1V586RLMZ1msh8SCwS8papohih2Op12YfdDjsn3eTMCdHsNSgz",
+                "X-Mashape-Key" => "ByX279Alurmsh1xz0jp9KR4nvh9lp1g0a8UjsnKteukNKWsUlH",
                 "X-Mashape-Host" => "spoonacular-recipe-food-nutrition-v1.p.mashape.com"
             )
             );
