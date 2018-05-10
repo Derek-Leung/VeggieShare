@@ -1,10 +1,12 @@
-<div id="recipeTable"></div>
+<div id="recipeTable">
+</div>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>
     /*<![CDATA[*/
     var recipeData = null;
     var recipeID = null;
+    var servingFact = 1;
     $(document).ready(function() {
              $.ajax({
                 url: "./Content/getRandomRecipe.php",
@@ -36,6 +38,9 @@
                 recipeID = x;
                 var recipeInfo = "<h1>" + recipeData.root.body.recipes[x].title + "</h1><br/>";
                 recipeInfo += "<img src=\"" + recipeData.root.body.recipes[x].image + "\"/>";
+                recipeInfo += "<button onclick=\"bigIncrement()\">Big+</button><input type=\"text\" id=\"valBig\" value=\"0\"><button onclick=\"bigDecrement()\">Big-</button>";
+                recipeInfo += "<button onclick=\"medIncrement()\">Medium+</button><input type=\"text\" id=\"valMed\" value=\"1\"><button onclick=\"medDecrement()\">Medium-</button>";
+                recipeInfo += "<button onclick=\"smallIncrement()\">Small+</button><input type=\"text\" id=\"valSmall\" value=\"0\"><button onclick=\"smallDecrement()\">Small-</button>";
                 recipeInfo += "<h2>Preparation Time (Minutes) : </h2>" + recipeData.root.body.recipes[x].preparationMinutes + "<br/>";
                 recipeInfo += "<h2>Cooking Time (Minutes) : </h2>" + recipeData.root.body.recipes[x].cookingMinutes + "<br/>";
                 recipeInfo += "<h2>Ingredients</h2><br/><div id=\"ingredientsTable\"><table>";
@@ -61,6 +66,41 @@
         updateTable += "</table>";
         $("#ingredientsTable").html(updateTable);
       }
+     function bigIncrement() {
+        servingFact = servingFact+1.5;
+        document.getElementById('valBig').value ++; 
+        changeServings(servingFact);
+    }
+    function bigDecrement() {
+        if(document.getElementById('valBig').value === 0){
+            alert("nope");
+        }
+        else{
+        servingFact = servingFact-1.5;
+        document.getElementById('valBig').value--;      
+        changeServings(servingFact);
+            }
+    }
+     function medIncrement() {
+        servingFact = servingFact+1;
+        document.getElementById('valMed').value ++; 
+        changeServings(servingFact);
+    }
+    function medDecrement() {
+        servingFact = servingFact-1;
+        document.getElementById('valMed').value--;      
+        changeServings(servingFact);
+    }     
+    function smallIncrement() {
+        servingFact = servingFact+0.5;
+        document.getElementById('valSmall').value ++; 
+        changeServings(servingFact);
+    }
+    function smallDecrement() {
+        servingFact = servingFact-0.5;
+        document.getElementById('valSmall').value--;      
+        changeServings(servingFact);
+    }
     /*]]>*/
 </script>
 

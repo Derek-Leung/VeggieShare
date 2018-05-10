@@ -1,7 +1,9 @@
 <?php
 
-//require_once 'C:\Users\derek\vendor\autoload.php';
+
+
   require_once 'C:\Users\derek\Desktop\COMP2910\unirest-php-master\src\Unirest.php';
+
 
 
     $methodType = $_SERVER['REQUEST_METHOD'];
@@ -13,7 +15,8 @@
             
             $response = Unirest\Request::get("https://spoonacular-recipe-food-nutrition-v1.p.mashape.com/recipes/" . $recipeID . "/information",
               array(
-                "X-Mashape-Key" => "1V586RLMZ1msh8SCwS8papohih2Op12YfdDjsn3eTMCdHsNSgz",
+
+                "X-Mashape-Key" => "ByX279Alurmsh1xz0jp9KR4nvh9lp1g0a8UjsnKteukNKWsUlH",
                 "X-Mashape-Host" => "spoonacular-recipe-food-nutrition-v1.p.mashape.com"
               )
             );
