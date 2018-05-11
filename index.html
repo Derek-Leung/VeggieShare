@@ -28,55 +28,59 @@
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
             <li class="active"><a href="index.html">Home</a></li>
-            <li><a onclick="getFAQ()">FAQ</a></li>
-            <li><a onclick="getRecipe()">Recipe</a></li>
-            <li><a onclick="getAbout()">About Us</a></li>
+            <li><a href="FAQ.html">FAQ</a></li>
+            <li><a id="Recipe.html">Recipe</a></li>
+            <li><a id="About.html">About Us</a></li>
           </ul>
         </div>
       </div>
     </nav>
     <div id="contentArea">
-		<div id="breakfast" class="container-fluid">
-			<a onclick="getFoodCategory('breakfast')">
-			  <img src="Images/breakfast.jpg" alt="breakfast" class="img-responsive"/>
-				<div id="breakfastText" class="container-fluid">
-					<h2>BREAKFAST</h2>
-				</div>
-			</a>
-		</div>
-		<div id="lunch" class="container-fluid">
-      <a onclick="getFoodCategory('lunch')">
-		    <img src="Images/lunch.jpg" alt="lunch" class="img-responsive"/>
-			  <div id="lunchText" class="container-fluid">
-					<h2>LUNCH</h2>
-				</div>
-      </a>
- 		</div>
-		<div id="dinner" class="container-fluid">
-      <a onclick="getFoodCategory('dinner')">
-		    <img src="Images/dinner.jpg" alt="dinner" class="img-responsive"/>
-			  <div id="dinnerText" class="container-fluid">
-					<h2>DINNER</h2>
-				</div>
-      </a>
-		</div>
     </div>
     <script>
       /*<![CDATA[*/
-      	var recipeData = null;
-        function getAbout() {
-          $("#contentArea").load("Content/About.html");
-        }
+$(function() {
+  $("#contentArea").load("main.html");
+    $("nav").delegate("a", "click", function() {
+        _link = $(this).attr("id");
+      console.log(_link);
+        history.pushState(null, null, _link);
+        get(_link);
+        console.log("success");
+        return false;
+    });
+
+    $(window).bind('popstate', function(){
+      console.log("popstate");
+       _link = location.pathname.replace(/^.*[\\\/]/, ''); //get filename only
+       get(_link);
+    });
+
+} // otherwise, history is not supported, so nothing fancy here.
+
+    
+);
+
       
-        function getFAQ() {
-          $("#contentArea").load("Content/FAQ.html");
-        }
-        function getRecipe() {
-          $("#contentArea").load("Content/Recipe.html");
-        }
-        function searchShow() {
-          $("#contentArea").load("Content/SearchPage.html");
-        }
+      
+      
+      	var recipeData = null;
+      function get(url){
+        $("#contentArea").load(url);
+      }
+//        function getAbout() {
+//          $("#contentArea").load("Content/About.html");
+//        }
+//      
+//        function getFAQ() {
+//          $("#contentArea").load("Content/FAQ.html");
+//        }
+//        function getRecipe() {
+//          $("#contentArea").load("Content/Recipe.html");
+//        }
+//        function searchShow() {
+//          $("#contentArea").load("Content/SearchPage.html");
+//        }
       
       
         function getFoodCategory(category){

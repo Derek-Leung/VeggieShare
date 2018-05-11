@@ -7,8 +7,9 @@ require_once 'C:\Users\derek\Desktop\COMP2910\unirest-php-master\src\Unirest.php
     $data = array("status" => "fail", "msg" => "On $methodType");
 
     if ($methodType === 'GET') {
-        if(isset($_GET['output'])) {            
-           $response = Unirest\Request::get("https://spoonacular-recipe-food-nutrition-v1.p.mashape.com/recipes/random?number=5",
+        if(isset($_GET['output'])) {  
+          $output = $_GET['output'];
+           $response = Unirest\Request::get("https://spoonacular-recipe-food-nutrition-v1.p.mashape.com/recipes/random?number=5&tags=" . $output,
             array(
               "X-Mashape-Key" => "1V586RLMZ1msh8SCwS8papohih2Op12YfdDjsn3eTMCdHsNSgz",
               "X-Mashape-Host" => "spoonacular-recipe-food-nutrition-v1.p.mashape.com"

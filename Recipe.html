@@ -10,7 +10,7 @@
                 url: "./Content/getRandomRecipe.php",
                 dataType: "json",
                 type: "GET",
-                data: {output: 'json'},
+                data: {output: ''},
                 success: function(data) {
                     console.log(data);
                     recipeData = data;
@@ -22,6 +22,7 @@
                     }
                     content += "</table>";
                     $("#recipeTable").html(content);
+                history.pushState(null, null, "Content/Recipe.html");
                     },
                     error: function(jqXHR, textStatus, errorThrown) {
                       $("#p1").text(textStatus + " " + errorThrown
@@ -47,8 +48,10 @@
                 for(var n =0; n < recipeData.root.body.recipes[x].analyzedInstructions[0].steps.length; n++){
                   recipeInfo += "<tr><td>" + recipeData.root.body.recipes[x].analyzedInstructions[0].steps[n].number + ": " + recipeData.root.body.recipes[x].analyzedInstructions[0].steps[n].step + "</td></tr>"
                 }
-                recipeInfo += "</table>"
+                recipeInfo += "</table>";
+                
                 $("#recipeTable").html(recipeInfo);
+                
               }
             }
           	};
