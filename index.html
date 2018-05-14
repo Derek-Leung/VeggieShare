@@ -28,9 +28,9 @@
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
             <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="FAQ.html">FAQ</a></li>
+            <li><a href="FAQ.html" onclick='createView("FAQ.html", true); return false;'>FAQ</a></li>
             <li><a id="Recipe.html">Recipe</a></li>
-            <li><a id="About.html">About Us</a></li>
+            <li><a href="About.html" onclick='createView("About.html", true); return false;'>About Us</a></li>
           </ul>
         </div>
       </div>
@@ -41,20 +41,22 @@
       /*<![CDATA[*/
 $(function() {
   $("#contentArea").load("main.html");
-    $("nav").delegate("a", "click", function() {
-        _link = $(this).attr("id");
-      console.log(_link);
-        history.pushState(null, null, _link);
+  history.pushState("main.html", "Main", '?page=main.html');
+    function createView(stateObject, pushHistory) {
+      console.log("createView");
+        _link = $(this).attr("href");
         get(_link);
         console.log("success");
+        if (pushHistory) history.pushState(_link, _link, '?page='+_link);
         return false;
-    });
+    };
 
-    $(window).bind('popstate', function(){
+    window.onpopstate = function(event) {
       console.log("popstate");
-       _link = location.pathname.replace(/^.*[\\\/]/, ''); //get filename only
-       get(_link);
-    });
+      console.log(event.state);
+
+       createView(event.state, false);
+    };
 
 } // otherwise, history is not supported, so nothing fancy here.
 
