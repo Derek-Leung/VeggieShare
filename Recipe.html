@@ -22,7 +22,7 @@
                     }
                     content += "</table>";
                     $("#recipeTable").html(content);
-                history.pushState(null, null, "Content/Recipe.html");
+                    createView("Recipe.html&" + recipeData.root.body.recipes[0].id + "&" + recipeData.root.body.recipes[1].id + "&" + recipeData.root.body.recipes[2].id + "&" + recipeData.root.body.recipes[3].id + "&" + recipeData.root.body.recipes[4].id, true);
                     },
                     error: function(jqXHR, textStatus, errorThrown) {
                       $("#p1").text(textStatus + " " + errorThrown
@@ -51,6 +51,8 @@
                 recipeInfo += "</table>";
                 
                 $("#recipeTable").html(recipeInfo);
+                
+                createView("Steps.html&" + recipeData.root.body.recipes[x].id, true);
                 
               }
             }
