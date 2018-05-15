@@ -39,9 +39,18 @@
     </div>
     <script>
       /*<![CDATA[*/
-  $("#contentArea").load("main.html");
-  history.pushState("main.html", "Main", '?page=main.html');
-      
+	var amp = "&";
+	var url = window.location.href;
+	if (url.indexOf("Steps.html" + amp) != -1){
+		var recipeIdEntered = url.split(amp);
+		getRecipeStep(recipeIdEntered[1]);
+	} else{
+		$("#contentArea").load("main.html");
+		history.pushState("main.html", "Main", '?page=main.html');
+	}
+  
+			
+ 	
   function createView(link, pushHistory) {
         get(link);
         if (pushHistory)  { 
@@ -53,9 +62,9 @@
       console.log(event.state);
       if(event.state.includes("Recipe.html&")){
         var test = event.state.split("&");
-        console.log(test);
+        console.log(test[2]);
       } else {
-       createView(event.state, false);
+       		createView(event.state, false);
       }
     };
 
