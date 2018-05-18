@@ -9,7 +9,7 @@ $servername = "xray.gendns.com";
     $password = "adminadmin";
     $dbname = "preppyfu_2910";
 
-$userfirst = $_SESSION['u_first'];
+$userID = $_SESSION['u_first'];
 
 try {
 
@@ -17,30 +17,37 @@ try {
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);   
 
    if(isset($_POST['create'])) {
-//     $newname = $_POST['new_profile_name'];
+       
+ if(!empty($_POST['new_profile_name'])) {
+            
+            $sql = "SELECT * FROM profiles WHERE name = :value";
+            $stmt = $conn->prepare($sql);
+            $stmt->bindParam(':value', $value);
+            $value = $_POST['new_profile_name'];
+            $stmt->execute();
 
-// $sql = $conn->prepare("SELECT COUNT(*) AS `total` FROM profiles WHERE p_id = ?");
-//                 $sql->execute(array($newname));
-//                 $result = $sql->fetchObject();
+            $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-//                 if ($result->total > 0) {
-//                     echo "alrdy exist";}
-//                 // } else {
-                  
-        
-    $sql = "INSERT INTO profiles (user_uid, p_id, serving) VALUES (:user, :prof, :serv)";
+            if(sizeof($result) < 1) {
+                $sql = "INSERT INTO profiles (user_id, name, serving) VALUES (:user, :prof, :serv)";
     $stmt = $conn->prepare($sql);
     $stmt->bindParam(':user', $user);
     $stmt->bindParam(':prof', $prof);
     $stmt->bindParam(':serv', $serv);
 
-    $user = $userfirst;
+    $user = $userID;
     $prof = $_POST['new_profile_name'];
     $serv = $_POST['new_serving'];
     $stmt->execute();
-    
+            } else {
+            header("Location: http://preppy.fun/index.php?page=acc.php");
+            
+                echo "<script>alert(\"no\");</script>";
+            }
+
+        }
     } else if(isset($_POST['update'])) {
-    $sql = "UPDATE profiles SET serving = :serv WHERE p_id = :prof";
+    $sql = "UPDATE profiles SET serving = :serv WHERE name = :prof";
     $stmt = $conn->prepare($sql);
 
     $stmt->bindParam(':prof', $prof);
@@ -60,13 +67,13 @@ try {
 
 if(isset($_POST['delete'])) {
 
-    $sql = "DELETE FROM profiles WHERE p_id = :prof AND user_uid = :user";
+    $sql = "DELETE FROM profiles WHERE name = :prof AND user_id = :user";
     $stmt = $conn->prepare($sql);
 
     $stmt->bindParam(':user', $user);
     $stmt->bindParam(':prof', $prof);
 
-    $user = $userfirst;
+    $user = $userID;
     $prof = $_POST['delete'];
 
     $stmt->execute();
@@ -75,5 +82,5 @@ if(isset($_POST['delete'])) {
     die($ex->getMessage());
 }
 
-header("Location: acc.php");
+header("Location: http://preppy.fun/index.php?page=acc.php");
 ?>
