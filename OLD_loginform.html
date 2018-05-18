@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Register Form</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"  />
+  <link href='https://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/recipebootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/Style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/signLogStyle.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script> 
+  
+</head>
+
+<body>
+
+  <nav class="navbar navbar-inverse" class="navbar static top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                     
+          </button>
+					<a class="navbar-brand logo" href="SearchPage.html"  onclick='createView("SearchPage.html", true); return false;'><span class= "fa fa-search"></span></a>
+          <a class="navbar-brand logo" href="index.php">Preppy</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.php">Home</a></li>
+            <li><a href="FAQ.html"  onclick='createView("FAQ.html", true); return false;'>FAQ</a></li>
+            <li><a href="?Recipe.html"  onclick='getFoodCategory(); return false;'>Recipe</a></li>
+            <li><a href="About.html" onclick='createView("About.html", true); return false;'>About Us</a></li>
+  
+          </ul>
+
+                
+        </div>
+      </div>
+    </nav>
+
+        <!-- Start Main Container for large screen -->
+        <div class="main-container hidden-sm">
+            <!-- Start Main Forms -->
+            <div class="main-forms">
+                <div class="signup-form">
+                    <form class="sign-back" action = "login.php" method = "POST">
+                        <h1>Log In</h1>
+                        <div class="signup-row">
+                            <i class="fa fa-user"></i>
+                            <input type="text" name="uid" placeholder="USERNAME" required = "required">
+                        </div>
+                        <div class="signup-row">
+                            <i class="fa fa-key"></i>
+                            <input type="password" name="pwd" placeholder="PASSWORD" required = "required">
+                        </div>
+                        <div class="signup-row">
+                            <a href="#">
+                                <button type="submit" name ="submit" class="btn btn-link">
+								<i class="fa fa-arrow-circle-o-right fa-3x" aria-hidden="true"></i>
+								</button>
+                            </a>
+                        </div>
+                        <div class="form-bottom">
+                            
+                            <div class="remember">
+                                <a href="signupform.html">Don't Have Account ?</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+			
+            <!-- End Main Forms -->
+        </div>
+		<div class="main-container-small visible-sm">
+            <!-- Start Main Forms -->
+            <div class="main-forms">
+                <div class="signup-form">
+                    <form class="sign-back" action = "login.php" method = "POST">
+                        <h1>Log In</h1>
+                        <div class="signup-row">
+                            <i class="fa fa-user"></i>
+                            <input type="text" name="uid" placeholder="USERNAME" required = "required">
+                        </div>
+                        <div class="signup-row">
+                            <i class="fa fa-key"></i>
+                            <input type="password" name="pwd" placeholder="PASSWORD" required = "required">
+                        </div>
+                        <div class="signup-row">
+                            <a href="#">
+                                <button type="submit" name ="submit" class="btn btn-link">
+								<i class="fa fa-arrow-circle-o-right fa-3x" aria-hidden="true"></i>
+								</button>
+                            </a>
+                        </div>
+                        <div class="form-bottom">
+                            <div class="remember">
+                                <a href="signupform.html">Don't Have Account ?</a>
+                            </div>    
+                        </div>
+                    </form>
+                </div>
+            </div>
+			
+            <!-- End Main Forms -->
+        </div>
+        <!-- End Main Container -->
+        <!-- Start Scripts -->
+        <script src="https://use.fontawesome.com/7dddae9ad9.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+        <!-- End Scripts -->
+    </body>
+</html>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+
+  
+
+
+
+
+
+
+</body>
+
+</html>

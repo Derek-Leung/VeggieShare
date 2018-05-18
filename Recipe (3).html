@@ -1,5 +1,4 @@
-<div id="recipeTable">
-</div>
+<div id="recipeTable"></div>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>
@@ -31,16 +30,31 @@
                     } 
 						 });
     });
-					function getRecipeStep(num){
+	function getRecipeStep(num){
 
             for (var x=0; x < recipeData.root.body.recipes.length; x++){
               if (num == recipeData.root.body.recipes[x].id){
                 recipeID = x;
                 var recipeInfo = "<h1>" + recipeData.root.body.recipes[x].title + "</h1><br/>";
                 recipeInfo += "<img src=\"" + recipeData.root.body.recipes[x].image + "\"/>";
+                
                 recipeInfo += "<button onclick=\"bigIncrement()\">Big+</button><input type=\"text\" id=\"valBig\" value=\"0\"><button onclick=\"bigDecrement()\">Big-</button>";
                 recipeInfo += "<button onclick=\"medIncrement()\">Medium+</button><input type=\"text\" id=\"valMed\" value=\"1\"><button onclick=\"medDecrement()\">Medium-</button>";
                 recipeInfo += "<button onclick=\"smallIncrement()\">Small+</button><input type=\"text\" id=\"valSmall\" value=\"0\"><button onclick=\"smallDecrement()\">Small-</button>";
+                
+                recipeInfo += "<button onclick=\"addNewServing()\">Add New Serving</button>";
+                if(2910.user.preferences.length = null){
+                recipeInfo += "<div id=\"servings\"><input type=\"range\" min=\"1\" max=\"20\" value=\"5\" id=\"range\">;
+                recipeInfo += "<p>Value" + x+1 + ": <span id=\"demo\"></span></p></div>";
+                } else {
+                recipeInfo += "<div id=\"servings\">";
+                for (var x=0; x < 2910.user.preferences.length; x++){
+                recipeInfo += "<input type=\"range\" min=\"0.5\" max=\"1.5\" value=\"1\" id=\"range\">;
+                recipeInfo += "<p>Value" + x+1 + ": <span id=\"demo\"></span></p>";
+          	    };
+          	    recipeInfo += "</div>";
+                }
+                  
                 recipeInfo += "<h2>Preparation Time (Minutes) : </h2>" + recipeData.root.body.recipes[x].preparationMinutes + "<br/>";
                 recipeInfo += "<h2>Cooking Time (Minutes) : </h2>" + recipeData.root.body.recipes[x].cookingMinutes + "<br/>";
                 recipeInfo += "<h2>Ingredients</h2><br/><div id=\"ingredientsTable\"><table>";
@@ -56,7 +70,8 @@
                 $("#recipeTable").html(recipeInfo);
               }
             }
-          	};
+
+	}
       function changeServings(servingFactor){
         var updateTable = "<table>";
         for (var a =0; a < recipeData.root.body.recipes[recipeID].extendedIngredients.length; a++){
@@ -66,7 +81,7 @@
         updateTable += "</table>";
         $("#ingredientsTable").html(updateTable);
       }
-     function bigIncrement() {
+           function bigIncrement() {
         servingFact = servingFact+1.5;
         document.getElementById('valBig').value ++; 
         changeServings(servingFact);
@@ -100,6 +115,17 @@
         servingFact = servingFact-0.5;
         document.getElementById('valSmall').value--;      
         changeServings(servingFact);
+    }
+    var slider = document.getElementById("myRange");
+    var output = document.getElementById("demo");
+    output.innerHTML = slider.value;
+
+    slider.oninput = function() {
+  output.innerHTML = this.value;
+    }
+    function addNewServing(){
+        $("#servings").append("   <input type="range" min="1" max="100" value="50" id=\"myRange\"><p>Value: <span id=\"demo\"></span></p>");
+    });
     }
     /*]]>*/
 </script>
