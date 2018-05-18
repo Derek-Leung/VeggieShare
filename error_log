@@ -1,0 +1,402 @@
+[10-May-2018 22:58:47 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/preppyfu/public_html/signupconnect.php on line 9
+[10-May-2018 22:58:47 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/signupconnect.php on line 17
+[10-May-2018 22:58:47 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/signupconnect.php on line 18
+[10-May-2018 22:58:47 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/signupconnect.php on line 19
+[10-May-2018 22:58:47 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/signupconnect.php on line 20
+[10-May-2018 22:58:47 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/signupconnect.php on line 21
+[10-May-2018 22:58:47 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/signupconnect.php on line 23
+[10-May-2018 22:58:47 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/preppyfu/public_html/signupconnect.php on line 24
+[10-May-2018 22:58:47 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/signupconnect.php on line 31
+[10-May-2018 23:00:12 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/preppyfu/public_html/signupconnect.php on line 9
+[10-May-2018 23:00:12 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/signupconnect.php on line 17
+[10-May-2018 23:00:12 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/signupconnect.php on line 18
+[10-May-2018 23:00:12 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/signupconnect.php on line 19
+[10-May-2018 23:00:12 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/signupconnect.php on line 20
+[10-May-2018 23:00:12 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/signupconnect.php on line 21
+[10-May-2018 23:00:12 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/signupconnect.php on line 23
+[10-May-2018 23:00:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/preppyfu/public_html/signupconnect.php on line 24
+[10-May-2018 23:00:12 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/signupconnect.php on line 31
+[10-May-2018 23:02:25 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/preppyfu/public_html/signupconnect.php on line 9
+[10-May-2018 23:02:25 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/signupconnect.php on line 17
+[10-May-2018 23:02:25 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/signupconnect.php on line 18
+[10-May-2018 23:02:25 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/signupconnect.php on line 19
+[10-May-2018 23:02:25 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/signupconnect.php on line 20
+[10-May-2018 23:02:25 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/signupconnect.php on line 21
+[10-May-2018 23:02:25 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/signupconnect.php on line 23
+[10-May-2018 23:02:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/preppyfu/public_html/signupconnect.php on line 24
+[10-May-2018 23:02:25 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/signupconnect.php on line 31
+[10-May-2018 23:02:31 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/preppyfu/public_html/login.php on line 12
+[10-May-2018 23:02:31 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/login.php on line 14
+[10-May-2018 23:02:31 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/login.php on line 15
+[10-May-2018 23:02:31 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/login.php on line 18
+[10-May-2018 23:02:31 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/preppyfu/public_html/login.php on line 19
+[10-May-2018 23:05:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/login.php:27) in /home/preppyfu/public_html/login.php on line 29
+[10-May-2018 23:06:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/login.php:27) in /home/preppyfu/public_html/login.php on line 29
+[10-May-2018 23:10:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/login.php:27) in /home/preppyfu/public_html/login.php on line 29
+[10-May-2018 23:11:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/login.php:27) in /home/preppyfu/public_html/login.php on line 29
+[14-May-2018 07:31:42 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/preppyfu/public_html/account.php on line 19
+[14-May-2018 07:31:42 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/preppyfu/public_html/account.php on line 28
+[14-May-2018 07:31:42 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/preppyfu/public_html/account.php on line 58
+[14-May-2018 07:31:42 UTC] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/preppyfu/public_html/account.php on line 119
+[14-May-2018 07:59:33 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'xray.gendns.com' (using password: YES) in /home/preppyfu/public_html/account.php on line 16
+[14-May-2018 07:59:33 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 23
+[14-May-2018 07:59:33 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 56
+[14-May-2018 07:59:33 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 137
+[14-May-2018 08:00:18 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'xray.gendns.com' (using password: YES) in /home/preppyfu/public_html/account.php on line 16
+[14-May-2018 08:00:18 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 23
+[14-May-2018 08:00:18 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 56
+[14-May-2018 08:00:18 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 137
+[14-May-2018 17:41:40 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'xray.gendns.com' (using password: YES) in /home/preppyfu/public_html/account.php on line 16
+[14-May-2018 17:41:40 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 23
+[14-May-2018 17:41:40 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 56
+[14-May-2018 17:41:40 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 137
+[14-May-2018 17:44:36 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'xray.gendns.com' (using password: YES) in /home/preppyfu/public_html/account.php on line 16
+[14-May-2018 17:44:36 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 23
+[14-May-2018 17:44:36 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 56
+[14-May-2018 17:44:36 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 137
+[14-May-2018 17:48:10 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'xray.gendns.com' (using password: YES) in /home/preppyfu/public_html/account.php on line 16
+[14-May-2018 17:48:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 23
+[14-May-2018 17:48:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 56
+[14-May-2018 17:48:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 137
+[14-May-2018 17:58:37 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'xray.gendns.com' (using password: YES) in /home/preppyfu/public_html/account.php on line 16
+[14-May-2018 17:58:37 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 23
+[14-May-2018 17:58:37 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 56
+[14-May-2018 17:58:37 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 137
+[14-May-2018 17:58:55 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'xray.gendns.com' (using password: YES) in /home/preppyfu/public_html/account.php on line 16
+[14-May-2018 17:58:55 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 23
+[14-May-2018 17:58:55 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 56
+[14-May-2018 17:58:55 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 137
+[14-May-2018 18:00:33 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'xray.gendns.com' (using password: YES) in /home/preppyfu/public_html/account.php on line 16
+[14-May-2018 18:00:33 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 23
+[14-May-2018 18:00:33 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 53
+[14-May-2018 18:00:33 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 134
+[14-May-2018 18:01:33 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'xray.gendns.com' (using password: YES) in /home/preppyfu/public_html/account.php on line 16
+[14-May-2018 18:01:33 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 23
+[14-May-2018 18:01:33 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 56
+[14-May-2018 18:01:33 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 137
+[14-May-2018 18:01:53 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'xray.gendns.com' (using password: YES) in /home/preppyfu/public_html/account.php on line 16
+[14-May-2018 18:01:53 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 23
+[14-May-2018 18:01:53 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 56
+[14-May-2018 18:01:53 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 137
+[14-May-2018 18:12:35 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'xray.gendns.com' (using password: YES) in /home/preppyfu/public_html/account.php on line 16
+[14-May-2018 18:12:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 23
+[14-May-2018 18:12:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 56
+[14-May-2018 18:12:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 137
+[14-May-2018 18:13:10 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'xray.gendns.com' (using password: YES) in /home/preppyfu/public_html/account.php on line 19
+[14-May-2018 18:13:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 26
+[14-May-2018 18:13:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:12) in /home/preppyfu/public_html/account.php on line 36
+[14-May-2018 18:13:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 59
+[14-May-2018 18:13:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 140
+[14-May-2018 18:13:18 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'xray.gendns.com' (using password: YES) in /home/preppyfu/public_html/account.php on line 19
+[14-May-2018 18:13:18 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 26
+[14-May-2018 18:13:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:12) in /home/preppyfu/public_html/account.php on line 36
+[14-May-2018 18:13:18 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 59
+[14-May-2018 18:13:18 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 125
+[14-May-2018 18:13:18 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 126
+[14-May-2018 18:13:18 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 129
+[14-May-2018 18:13:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:12) in /home/preppyfu/public_html/account.php on line 130
+[14-May-2018 18:13:18 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 140
+[14-May-2018 18:14:40 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'xray.gendns.com' (using password: YES) in /home/preppyfu/public_html/account.php on line 19
+[14-May-2018 18:14:40 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 26
+[14-May-2018 18:14:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:12) in /home/preppyfu/public_html/account.php on line 36
+[14-May-2018 18:14:40 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 59
+[14-May-2018 18:14:40 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 125
+[14-May-2018 18:14:40 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 126
+[14-May-2018 18:14:40 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 129
+[14-May-2018 18:14:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:12) in /home/preppyfu/public_html/account.php on line 130
+[14-May-2018 18:14:40 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 140
+[14-May-2018 18:15:09 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'xray.gendns.com' (using password: YES) in /home/preppyfu/public_html/account.php on line 19
+[14-May-2018 18:15:09 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 26
+[14-May-2018 18:15:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:12) in /home/preppyfu/public_html/account.php on line 36
+[14-May-2018 18:15:09 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 59
+[14-May-2018 18:15:09 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 125
+[14-May-2018 18:15:09 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 126
+[14-May-2018 18:15:09 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 129
+[14-May-2018 18:15:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:12) in /home/preppyfu/public_html/account.php on line 130
+[14-May-2018 18:15:09 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 140
+[14-May-2018 18:16:09 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'xray.gendns.com' (using password: YES) in /home/preppyfu/public_html/account.php on line 19
+[14-May-2018 18:16:09 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 26
+[14-May-2018 18:16:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:12) in /home/preppyfu/public_html/account.php on line 36
+[14-May-2018 18:16:09 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 59
+[14-May-2018 18:16:09 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 125
+[14-May-2018 18:16:09 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 126
+[14-May-2018 18:16:09 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 129
+[14-May-2018 18:16:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:12) in /home/preppyfu/public_html/account.php on line 130
+[14-May-2018 18:16:09 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 140
+[14-May-2018 18:16:17 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'xray.gendns.com' (using password: YES) in /home/preppyfu/public_html/account.php on line 19
+[14-May-2018 18:16:17 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 26
+[14-May-2018 18:16:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:12) in /home/preppyfu/public_html/account.php on line 36
+[14-May-2018 18:16:17 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 59
+[14-May-2018 18:16:17 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 125
+[14-May-2018 18:16:17 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 126
+[14-May-2018 18:16:17 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 129
+[14-May-2018 18:16:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:12) in /home/preppyfu/public_html/account.php on line 130
+[14-May-2018 18:16:17 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 140
+[14-May-2018 18:16:21 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'xray.gendns.com' (using password: YES) in /home/preppyfu/public_html/account.php on line 19
+[14-May-2018 18:16:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 26
+[14-May-2018 18:16:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:12) in /home/preppyfu/public_html/account.php on line 36
+[14-May-2018 18:16:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 59
+[14-May-2018 18:16:21 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 125
+[14-May-2018 18:16:21 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 126
+[14-May-2018 18:16:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 129
+[14-May-2018 18:16:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:12) in /home/preppyfu/public_html/account.php on line 130
+[14-May-2018 18:16:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 140
+[14-May-2018 18:19:57 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'xray.gendns.com' (using password: YES) in /home/preppyfu/public_html/account.php on line 19
+[14-May-2018 18:19:57 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 26
+[14-May-2018 18:19:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:12) in /home/preppyfu/public_html/account.php on line 38
+[14-May-2018 18:19:57 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 61
+[14-May-2018 18:19:57 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 127
+[14-May-2018 18:19:57 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 128
+[14-May-2018 18:19:57 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 131
+[14-May-2018 18:19:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:12) in /home/preppyfu/public_html/account.php on line 132
+[14-May-2018 18:19:57 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 142
+[14-May-2018 18:20:52 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'xray.gendns.com' (using password: YES) in /home/preppyfu/public_html/account.php on line 19
+[14-May-2018 18:20:52 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 46
+[14-May-2018 18:20:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:12) in /home/preppyfu/public_html/account.php on line 58
+[14-May-2018 18:20:52 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 63
+[14-May-2018 18:20:52 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 129
+[14-May-2018 18:20:52 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 130
+[14-May-2018 18:20:52 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 133
+[14-May-2018 18:20:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:12) in /home/preppyfu/public_html/account.php on line 134
+[14-May-2018 18:20:52 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 144
+[14-May-2018 18:53:59 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'xray.gendns.com' (using password: YES) in /home/preppyfu/public_html/account.php on line 19
+[14-May-2018 18:53:59 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 26
+[14-May-2018 18:53:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:12) in /home/preppyfu/public_html/account.php on line 38
+[14-May-2018 18:53:59 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 61
+[14-May-2018 18:53:59 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 127
+[14-May-2018 18:53:59 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 128
+[14-May-2018 18:53:59 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 131
+[14-May-2018 18:53:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:12) in /home/preppyfu/public_html/account.php on line 132
+[14-May-2018 18:53:59 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 142
+[14-May-2018 18:56:24 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'xray.gendns.com' (using password: YES) in /home/preppyfu/public_html/account.php on line 19
+[14-May-2018 18:56:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 26
+[14-May-2018 18:56:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:12) in /home/preppyfu/public_html/account.php on line 37
+[14-May-2018 18:56:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 60
+[14-May-2018 18:56:24 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 126
+[14-May-2018 18:56:24 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 127
+[14-May-2018 18:56:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 130
+[14-May-2018 18:56:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:12) in /home/preppyfu/public_html/account.php on line 131
+[14-May-2018 18:56:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 141
+[14-May-2018 19:00:06 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'xray.gendns.com' (using password: YES) in /home/preppyfu/public_html/account.php on line 18
+[14-May-2018 19:00:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 25
+[14-May-2018 19:00:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 59
+[14-May-2018 19:00:06 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 125
+[14-May-2018 19:00:06 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 126
+[14-May-2018 19:00:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 129
+[14-May-2018 19:00:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:49) in /home/preppyfu/public_html/account.php on line 130
+[14-May-2018 19:00:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 140
+[14-May-2018 19:15:13 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'xray.gendns.com' (using password: YES) in /home/preppyfu/public_html/account.php on line 18
+[14-May-2018 19:15:13 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 24
+[14-May-2018 19:15:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/preppyfu/public_html/account.php on line 26
+[14-May-2018 19:15:13 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 35
+[14-May-2018 19:15:13 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 66
+[14-May-2018 19:15:13 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 147
+[14-May-2018 19:15:49 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'xray.gendns.com' (using password: YES) in /home/preppyfu/public_html/account.php on line 18
+[14-May-2018 19:15:49 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 24
+[14-May-2018 19:15:49 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/preppyfu/public_html/account.php on line 26
+[14-May-2018 19:15:49 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 35
+[14-May-2018 19:15:49 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 66
+[14-May-2018 19:15:49 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 147
+[14-May-2018 19:17:24 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'xray.gendns.com' (using password: YES) in /home/preppyfu/public_html/account.php on line 18
+[14-May-2018 19:17:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 24
+[14-May-2018 19:17:24 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/preppyfu/public_html/account.php on line 26
+[14-May-2018 19:17:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 35
+[14-May-2018 19:17:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 66
+[14-May-2018 19:17:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 147
+[14-May-2018 19:17:28 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'xray.gendns.com' (using password: YES) in /home/preppyfu/public_html/account.php on line 18
+[14-May-2018 19:17:28 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 24
+[14-May-2018 19:17:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/preppyfu/public_html/account.php on line 26
+[14-May-2018 19:17:28 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 35
+[14-May-2018 19:17:28 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 66
+[14-May-2018 19:17:28 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 147
+[14-May-2018 19:34:25 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'xray.gendns.com' (using password: YES) in /home/preppyfu/public_html/account.php on line 18
+[14-May-2018 19:34:25 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 24
+[14-May-2018 19:34:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/preppyfu/public_html/account.php on line 26
+[14-May-2018 19:34:25 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 34
+[14-May-2018 19:34:25 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 65
+[14-May-2018 19:34:25 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 146
+[14-May-2018 19:34:27 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'xray.gendns.com' (using password: YES) in /home/preppyfu/public_html/account.php on line 18
+[14-May-2018 19:34:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 24
+[14-May-2018 19:34:27 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/preppyfu/public_html/account.php on line 26
+[14-May-2018 19:34:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 34
+[14-May-2018 19:34:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 65
+[14-May-2018 19:34:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 146
+[14-May-2018 19:34:32 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'xray.gendns.com' (using password: YES) in /home/preppyfu/public_html/account.php on line 18
+[14-May-2018 19:34:32 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 24
+[14-May-2018 19:34:32 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/preppyfu/public_html/account.php on line 26
+[14-May-2018 19:34:32 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 34
+[14-May-2018 19:34:32 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 65
+[14-May-2018 19:34:32 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 131
+[14-May-2018 19:34:32 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 132
+[14-May-2018 19:34:32 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 135
+[14-May-2018 19:34:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:55) in /home/preppyfu/public_html/account.php on line 136
+[14-May-2018 19:34:32 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/preppyfu/public_html/account.php on line 146
+[14-May-2018 19:39:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:28) in /home/preppyfu/public_html/account.php on line 92
+[14-May-2018 19:40:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:28) in /home/preppyfu/public_html/account.php on line 92
+[14-May-2018 19:40:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:28) in /home/preppyfu/public_html/account.php on line 92
+[14-May-2018 19:40:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:28) in /home/preppyfu/public_html/account.php on line 92
+[14-May-2018 19:40:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:28) in /home/preppyfu/public_html/account.php on line 92
+[14-May-2018 19:41:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:41) in /home/preppyfu/public_html/account.php on line 122
+[14-May-2018 19:48:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:40) in /home/preppyfu/public_html/account.php on line 121
+[14-May-2018 19:48:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:40) in /home/preppyfu/public_html/account.php on line 121
+[14-May-2018 19:48:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:40) in /home/preppyfu/public_html/account.php on line 121
+[14-May-2018 19:51:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 65
+[14-May-2018 19:51:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 124
+[14-May-2018 19:51:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 65
+[14-May-2018 19:51:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 124
+[14-May-2018 19:51:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 65
+[14-May-2018 19:51:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 124
+[14-May-2018 19:55:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 65
+[14-May-2018 19:55:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 124
+[14-May-2018 20:09:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 65
+[14-May-2018 20:09:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 124
+[14-May-2018 20:09:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 65
+[14-May-2018 20:09:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 80
+[14-May-2018 20:09:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 65
+[14-May-2018 20:09:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 80
+[14-May-2018 20:09:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 65
+[14-May-2018 20:09:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 80
+[14-May-2018 20:12:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 65
+[14-May-2018 20:12:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 80
+[14-May-2018 20:12:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 65
+[14-May-2018 20:12:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 80
+[14-May-2018 20:12:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 65
+[14-May-2018 20:12:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 80
+[14-May-2018 20:12:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 65
+[14-May-2018 20:12:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 80
+[14-May-2018 20:12:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 65
+[14-May-2018 20:12:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 124
+[14-May-2018 20:13:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 65
+[14-May-2018 20:13:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 124
+[14-May-2018 20:13:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 65
+[14-May-2018 20:13:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 80
+[14-May-2018 20:13:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 65
+[14-May-2018 20:13:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 80
+[14-May-2018 20:13:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 65
+[14-May-2018 20:13:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 80
+[14-May-2018 20:13:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 65
+[14-May-2018 20:13:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 80
+[14-May-2018 20:13:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 65
+[14-May-2018 20:13:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 80
+[14-May-2018 20:13:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 65
+[14-May-2018 20:13:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 80
+[14-May-2018 20:13:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 65
+[14-May-2018 20:13:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 80
+[14-May-2018 20:13:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 65
+[14-May-2018 20:13:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 80
+[14-May-2018 20:13:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 65
+[14-May-2018 20:13:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 80
+[14-May-2018 20:13:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 65
+[14-May-2018 20:13:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 80
+[15-May-2018 20:05:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 65
+[15-May-2018 20:06:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 65
+[15-May-2018 20:06:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 65
+[15-May-2018 20:06:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 80
+[15-May-2018 20:07:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 65
+[15-May-2018 20:07:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 80
+[15-May-2018 20:08:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 65
+[15-May-2018 20:08:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 80
+[15-May-2018 20:08:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 65
+[15-May-2018 20:08:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 80
+[15-May-2018 20:25:56 UTC] PHP Parse error:  syntax error, unexpected 'signupform' (T_STRING), expecting ',' or ';' in /home/preppyfu/public_html/index.php on line 40
+[15-May-2018 20:26:04 UTC] PHP Parse error:  syntax error, unexpected 'signupform' (T_STRING), expecting ',' or ';' in /home/preppyfu/public_html/index.php on line 40
+[15-May-2018 20:26:24 UTC] PHP Parse error:  syntax error, unexpected 'signupform' (T_STRING), expecting ',' or ';' in /home/preppyfu/public_html/index.php on line 40
+[15-May-2018 20:26:32 UTC] PHP Parse error:  syntax error, unexpected 'signupform' (T_STRING), expecting ',' or ';' in /home/preppyfu/public_html/index.php on line 40
+[15-May-2018 20:28:48 UTC] PHP Parse error:  syntax error, unexpected 'signupform' (T_STRING), expecting ',' or ';' in /home/preppyfu/public_html/index.php on line 40
+[15-May-2018 20:29:19 UTC] PHP Parse error:  syntax error, unexpected 'signupform' (T_STRING), expecting ',' or ';' in /home/preppyfu/public_html/index.php on line 40
+[15-May-2018 20:29:23 UTC] PHP Parse error:  syntax error, unexpected 'signupform' (T_STRING), expecting ',' or ';' in /home/preppyfu/public_html/index.php on line 40
+[15-May-2018 20:29:38 UTC] PHP Parse error:  syntax error, unexpected 'signupform' (T_STRING), expecting ',' or ';' in /home/preppyfu/public_html/index.php on line 40
+[15-May-2018 20:29:53 UTC] PHP Parse error:  syntax error, unexpected 'signupform' (T_STRING), expecting ',' or ';' in /home/preppyfu/public_html/index.php on line 40
+[15-May-2018 20:29:54 UTC] PHP Parse error:  syntax error, unexpected 'signupform' (T_STRING), expecting ',' or ';' in /home/preppyfu/public_html/index.php on line 40
+[15-May-2018 20:29:56 UTC] PHP Parse error:  syntax error, unexpected 'signupform' (T_STRING), expecting ',' or ';' in /home/preppyfu/public_html/index.php on line 40
+[15-May-2018 20:29:56 UTC] PHP Parse error:  syntax error, unexpected 'signupform' (T_STRING), expecting ',' or ';' in /home/preppyfu/public_html/index.php on line 40
+[15-May-2018 20:29:56 UTC] PHP Parse error:  syntax error, unexpected 'signupform' (T_STRING), expecting ',' or ';' in /home/preppyfu/public_html/index.php on line 40
+[15-May-2018 20:29:57 UTC] PHP Parse error:  syntax error, unexpected 'signupform' (T_STRING), expecting ',' or ';' in /home/preppyfu/public_html/index.php on line 40
+[15-May-2018 20:29:57 UTC] PHP Parse error:  syntax error, unexpected 'signupform' (T_STRING), expecting ',' or ';' in /home/preppyfu/public_html/index.php on line 40
+[15-May-2018 20:29:57 UTC] PHP Parse error:  syntax error, unexpected 'signupform' (T_STRING), expecting ',' or ';' in /home/preppyfu/public_html/index.php on line 40
+[15-May-2018 20:29:58 UTC] PHP Parse error:  syntax error, unexpected 'signupform' (T_STRING), expecting ',' or ';' in /home/preppyfu/public_html/index.php on line 40
+[15-May-2018 20:50:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 65
+[15-May-2018 20:50:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 80
+[15-May-2018 20:50:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 65
+[15-May-2018 20:50:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 80
+[15-May-2018 21:46:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 65
+[15-May-2018 21:46:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/account.php:42) in /home/preppyfu/public_html/account.php on line 65
+[15-May-2018 23:19:11 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/preppyfu/public_html/favorites.php on line 40
+[16-May-2018 00:02:27 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/preppyfu/public_html/index.php:1) in /home/preppyfu/public_html/index.php on line 70
+[16-May-2018 00:02:55 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/preppyfu/public_html/index.php:1) in /home/preppyfu/public_html/index.php on line 7
+[16-May-2018 21:49:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/login.php:33) in /home/preppyfu/public_html/login.php on line 35
+[16-May-2018 21:50:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/login.php:33) in /home/preppyfu/public_html/login.php on line 35
+[16-May-2018 21:50:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/login.php:33) in /home/preppyfu/public_html/login.php on line 35
+[16-May-2018 21:51:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/login.php:33) in /home/preppyfu/public_html/login.php on line 35
+[16-May-2018 21:52:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/login.php:33) in /home/preppyfu/public_html/login.php on line 35
+[16-May-2018 22:06:37 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/preppyfu/public_html/index.php on line 99
+[16-May-2018 22:06:43 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/preppyfu/public_html/index.php on line 99
+[17-May-2018 19:07:14 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/preppyfu/public_html/getFavorites.php on line 20
+[17-May-2018 19:07:30 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/preppyfu/public_html/getFavorites.php on line 20
+[17-May-2018 19:07:42 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/preppyfu/public_html/getFavorites.php on line 20
+[17-May-2018 19:08:11 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/preppyfu/public_html/getFavorites.php on line 20
+[17-May-2018 19:08:50 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/preppyfu/public_html/getFavorites.php on line 20
+[17-May-2018 20:03:53 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/preppyfu/public_html/myFavourites.php:2) in /home/preppyfu/public_html/myFavourites.php on line 4
+[17-May-2018 20:20:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/preppyfu/public_html/getFav.php:26
+Stack trace:
+#0 /home/preppyfu/public_html/getFav.php(26): PDOStatement->execute()
+#1 {main}
+  thrown in /home/preppyfu/public_html/getFav.php on line 26
+[17-May-2018 20:22:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/preppyfu/public_html/getFav.php:26
+Stack trace:
+#0 /home/preppyfu/public_html/getFav.php(26): PDOStatement->execute()
+#1 {main}
+  thrown in /home/preppyfu/public_html/getFav.php on line 26
+[17-May-2018 20:22:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/preppyfu/public_html/getFav.php:26
+Stack trace:
+#0 /home/preppyfu/public_html/getFav.php(26): PDOStatement->execute()
+#1 {main}
+  thrown in /home/preppyfu/public_html/getFav.php on line 26
+[17-May-2018 20:23:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/preppyfu/public_html/getFav.php:26
+Stack trace:
+#0 /home/preppyfu/public_html/getFav.php(26): PDOStatement->execute()
+#1 {main}
+  thrown in /home/preppyfu/public_html/getFav.php on line 26
+[17-May-2018 20:25:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_uid' in 'where clause'' in /home/preppyfu/public_html/getFav.php:33
+Stack trace:
+#0 /home/preppyfu/public_html/getFav.php(33): PDOStatement->execute()
+#1 {main}
+  thrown in /home/preppyfu/public_html/getFav.php on line 33
+[17-May-2018 20:26:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_uid' in 'where clause'' in /home/preppyfu/public_html/getFav.php:33
+Stack trace:
+#0 /home/preppyfu/public_html/getFav.php(33): PDOStatement->execute()
+#1 {main}
+  thrown in /home/preppyfu/public_html/getFav.php on line 33
+[17-May-2018 20:26:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_uid' in 'where clause'' in /home/preppyfu/public_html/getFav.php:33
+Stack trace:
+#0 /home/preppyfu/public_html/getFav.php(33): PDOStatement->execute()
+#1 {main}
+  thrown in /home/preppyfu/public_html/getFav.php on line 33
+[17-May-2018 21:22:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/editPreference.php:77) in /home/preppyfu/public_html/editPreference.php on line 82
+[17-May-2018 21:22:40 UTC] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/preppyfu/public_html/editPreference.php on line 77
+[17-May-2018 21:23:19 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/preppyfu/public_html/editPreference.php on line 77
+[17-May-2018 21:23:47 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/preppyfu/public_html/editPreference.php on line 44
+[17-May-2018 21:28:20 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/preppyfu/public_html/editPreference.php on line 44
+[17-May-2018 21:29:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/editPreference.php:20) in /home/preppyfu/public_html/editPreference.php on line 81
+[17-May-2018 21:30:33 UTC] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/preppyfu/public_html/editPreference.php on line 76
+[17-May-2018 21:31:52 UTC] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/preppyfu/public_html/editPreference.php on line 76
+[17-May-2018 21:32:54 UTC] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/preppyfu/public_html/editPreference.php on line 76
+[17-May-2018 21:36:40 UTC] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/preppyfu/public_html/editPreference.php on line 74
+[17-May-2018 21:38:03 UTC] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/preppyfu/public_html/editPreference.php on line 74
+[17-May-2018 21:38:25 UTC] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/preppyfu/public_html/editPreference.php on line 74
+[17-May-2018 21:39:06 UTC] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/preppyfu/public_html/editPreference.php on line 74
+[17-May-2018 21:39:22 UTC] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/preppyfu/public_html/editPreference.php on line 74
+[17-May-2018 21:39:30 UTC] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/preppyfu/public_html/editPreference.php on line 74
+[17-May-2018 21:40:30 UTC] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/preppyfu/public_html/editPreference.php on line 74
+[17-May-2018 21:40:42 UTC] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/preppyfu/public_html/editPreference.php on line 74
+[17-May-2018 21:40:46 UTC] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/preppyfu/public_html/editPreference.php on line 74
+[17-May-2018 21:40:51 UTC] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/preppyfu/public_html/editPreference.php on line 74
+[17-May-2018 21:41:19 UTC] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/preppyfu/public_html/editPreference.php on line 74
+[17-May-2018 21:41:26 UTC] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/preppyfu/public_html/editPreference.php on line 74
+[17-May-2018 21:43:12 UTC] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/preppyfu/public_html/editPreference.php on line 73
+[17-May-2018 21:46:13 UTC] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/preppyfu/public_html/editPreference.php on line 74
+[17-May-2018 21:46:24 UTC] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/preppyfu/public_html/editPreference.php on line 74
+[17-May-2018 21:46:33 UTC] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/preppyfu/public_html/editPreference.php on line 74
+[17-May-2018 21:47:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/editPreference.php:27) in /home/preppyfu/public_html/editPreference.php on line 78
+[17-May-2018 21:47:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/preppyfu/public_html/editPreference.php:27) in /home/preppyfu/public_html/editPreference.php on line 78
+[17-May-2018 21:49:12 UTC] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/preppyfu/public_html/editPreference.php on line 74

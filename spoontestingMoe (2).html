@@ -1,0 +1,172 @@
+<div id="recipeTable"></div>
+<!--<div id="twitter">-->
+<!--    <a href="https://twitter.com/intent/tweet?button_hashtag=preppy&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #preppy</a>-->
+<!--    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
+<!--</div>-->
+
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+    /*<![CDATA[*/
+    var recipeData = null;
+    var recipeID = null;
+    var servingFact = 0;
+    $(document).ready(function() {
+             $.ajax({
+                url: "./Content/getRandomRecipe.php",
+                dataType: "json",
+                type: "GET",
+                data: {output: 'json'},
+                success: function(data) {
+                    console.log(data);
+                    recipeData = data;
+                    var content = "";
+              
+                    for (var i=0; i < data.root.body.recipes.length; i++){
+                      content += "<div id=\"breakfast\" class=\"container-fluid\">";  
+                      content += "<a onclick=\"getRecipeStep(" + data.root.body.recipes[i].id + ")\"><img class=\"img-responsive\" src=\"" + data.root.body.recipes[i].image + "\"/></a></td></tr>";
+                      content += "<div id=\"breakfastText\" class=\"container-fluid\"><h2>" + data.root.body.recipes[i].title + "</h2>";
+                      content += "</div></a></div>";
+                    }
+                    
+                    $("#recipeTable").html(content);
+                    createView("Recipe.html&" + recipeData.root.body.recipes[0].id + "&" + recipeData.root.body.recipes[1].id + "&" + recipeData.root.body.recipes[2].id + "&" + recipeData.root.body.recipes[3].id + "&" + recipeData.root.body.recipes[4].id, true);
+
+                    },
+                    error: function(jqXHR, textStatus, errorThrown) {
+                      $("#p1").text(textStatus + " " + errorThrown
+                               + jqXHR.responseText);
+                    } 
+			});
+    });
+			function getRecipeStep(num){
+                for (var x=0; x < recipeData.root.body.recipes.length; x++){
+                if (num == recipeData.root.body.recipes[x].id){
+                recipeID = x;
+                var recipeInfo = "<h1>" + recipeData.root.body.recipes[x].title + "</h1><br/>";
+                recipeInfo += "<img src=\"" + recipeData.root.body.recipes[x].image + "\"/>";
+                
+                recipeInfo += "<div id=\"servings\">";
+                for (var x=1; x < 4; x++){
+                recipeInfo += "<div class = \"slider\">";
+                recipeInfo += "<input type=\"range\" min=\"0.5\" max=\"1.5\" value=\"1\" id=\"myRange" + x + "\" step = \"0.1\" oninput=\"showVal(this.value," + x + ")\">";
+                recipeInfo += "<p>Value " + x + ": <span class = \"default\" id=\"demo" + x + "\">1</span></p>";
+                recipeInfo += "</div>";
+                servingFact += 1;
+                }
+                recipeInfo += "</div>";
+                changeServings(servingFact);
+                recipeInfo += "<a class=\"twitter-share-button\"href=\"https://twitter.com/intent/tweet?text=Hello%20world\">Tweet</a>";
+                recipeInfo += "<button onclick=\"addNewServing()\">Add New Serving</button>";
+                recipeInfo += "<button onclick=\"removeLastServing()\">Remove Last Serving</button>";
+                recipeInfo += "<button onclick=\"saveRecipe(" + recipeData.root.body.recipes[x].id + ", \'" + recipeData.root.body.recipes[x].title + "\')\">Save Recipe</button>";
+                recipeInfo += "<h2>Preparation Time (Minutes) : </h2>" + recipeData.root.body.recipes[x].preparationMinutes + "<br/>";
+                recipeInfo += "<h2>Cooking Time (Minutes) : </h2>" + recipeData.root.body.recipes[x].cookingMinutes + "<br/>";
+                recipeInfo += "<h2>Ingredients</h2><br/><div id=\"ingredientsTable\"><table>";
+                for (var y =0; y < recipeData.root.body.recipes[x].extendedIngredients.length; y++){
+                  recipeInfo += "<tr><td>" + (recipeData.root.body.recipes[x].extendedIngredients[y].measures.metric.amount / recipeData.root.body.recipes[x].servings) + " " + recipeData.root.body.recipes[x].extendedIngredients[y].measures.metric.unitLong + " " + recipeData.root.body.recipes[x].extendedIngredients[y].name + "</td></tr>";               
+                }
+                recipeInfo += "</table></div><br/>";
+                recipeInfo += "<h2>Instructions</h2><br/><table>";
+                for(var n =0; n < recipeData.root.body.recipes[x].analyzedInstructions[0].steps.length; n++){
+                  recipeInfo += "<tr><td>" + recipeData.root.body.recipes[x].analyzedInstructions[0].steps[n].number + ": " + recipeData.root.body.recipes[x].analyzedInstructions[0].steps[n].step + "</td></tr>"
+                }
+                recipeInfo += "</table>"
+                $("#recipeTable").html(recipeInfo);
+                
+                createView("Steps.html&" + recipeData.root.body.recipes[x].id, true);
+
+              }
+            }
+          	};
+      function changeServings(servingFactor){
+        var updateTable = "<table>";
+        for (var a =0; a < recipeData.root.body.recipes[recipeID].extendedIngredients.length; a++){
+            updateTable += "<tr><td>" + (recipeData.root.body.recipes[recipeID].extendedIngredients[a].measures.metric.amount / recipeData.root.body.recipes[recipeID].servings * servingFactor) + " " + recipeData.root.body.recipes[recipeID].extendedIngredients[a].measures.metric.unitLong + " " + recipeData.root.body.recipes[recipeID].extendedIngredients[a].name + "</td></tr>";
+        }
+        updateTable += "</table>";
+        $("#ingredientsTable").html(updateTable);
+      }
+        
+        function updateServings (){
+            var y = document.getElementsByClassName("default");
+            var x = y.length;
+            x++;
+            var newServingFact = 0;
+          for(var z=1; z<x; z++){
+            var i = parseFloat(document.getElementById("myRange"+z).value);
+            newServingFact += i;
+          }
+          servingFact = newServingFact;
+          console.log(servingFact);
+          changeServings(servingFact);
+        }
+        
+        function showVal(newVal, num){
+            document.getElementById("demo"+num).innerHTML= newVal;
+            updateServings();
+
+        }
+        
+        function addNewServing(){
+            var y = document.getElementsByClassName("default");
+            var x = y.length;
+            x++;
+            $("#servings").append("<div class = \"slider\"><input type=\"range\" min=\"0.5\" max=\"1.5\" value=\"1\" id=\"myRange" + x + "\" step = \"0.1\" oninput=\"showVal(this.value," + x + ")\"><p>Value " + x + ": <span class = \"default\" id=\"demo" + x + "\"></span></p></div>");
+            servingFact += 1;
+            showVal(1, x);
+            
+        }
+        
+        function removeLastServing(){
+            var x = document.getElementsByClassName("slider");
+            servingFact -= $('#servings div:last input').value;
+            $('#servings div:last').remove();
+            updateServings();
+        }
+        
+        function saveRecipe(recipeID, recipeTitle){
+                $.ajax({
+                url: "./Content/favorites.php",
+                type: "POST",
+                dataType: "text",
+                data: {
+                    recipeID : recipeID,
+                    recipeName : recipeTitle,
+                    test : test
+                },
+                success: function(data) {
+                    alert(data);
+                },
+error: function(jqXHR, textStatus, errorThrown) {
+                            //console.log(jqXHR.statusText, textStatus, errorThrown);
+                            console.log(jqXHR.statusText, textStatus);
+                            console.log("hi");
+                            }
+                
+                });
+                
+            console.log("THIS IS WAY YOU IDIOT");
+            console.log(recipeID);
+            console.log(recipeTitle);
+        }
+        
+            /*]]>*/
+        </script>
