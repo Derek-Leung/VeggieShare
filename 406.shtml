@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Oops - 406 Error</title>
+<link rel="stylesheet" type="text/css" href="/error-pages-content/error-page-styles.css"/>
+
+</head>
+<body>
+<div class="container">
+  <div class="banner">
+    <div class="logo"><a href="https://www.glowhost.com/web-hosting-service/3-months-for-a-dollar" target="_blank"><img src="https://glowhost.com/images/ads/web/728Wx90H/3months1dollar.gif" alt="GlowHost Web Hosting"  /></a></div>
+    <div class="middle-container">
+      <div class="title">
+        <p>ERROR 406 - Mod Security - Web Application Firewall</p>
+      </div>
+      <div class="title2">
+        <p>Oops, you've encountered an error.</p>
+      </div>
+      <div class="content-inner">
+        <div class="title3">
+          <p>406 - Mod Security - Web Application Firewall</p>
+        </div>
+        <div class="blue_box">
+          <div class="error _406">
+            <p class="oops_txt">Stop!</p>
+            <p class="error-txt">Error Code 406 means that whatever you were doing right before seeing this page, triggered a rule on this account's web  firewall which has caused you to see this page. If you repeat the same process, your IP may be completely banned. This may or may not be a false positive, so if you are the site owner, please <a href="https://glowhost.com/contact-support">contact  support</a> for more information. If you are a site visitor, please notify the site owner of how you discovered this page.</p>
+          </div>
+        </div><p class="url">Need <a href="http://glowhost.com">Web Hosting</a>?</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+<div class="footer-inner" style="width:940px; padding-top:7px">
+  <table width="940" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="219" valign="top" style="background:url(/error-pages-content/seperator2.gif) no-repeat center right; padding-right:6px"><table width="208" border="0" cellspacing="2" cellpadding="0">
+          <tr>
+            <td colspan="2">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="29%"><img src="/error-pages-content/shared_icon.jpg" height="46" alt="GlowHost Shared Servers" /></td>
+            <td  class="foot-title" width="71%">Shared Hosting</td>
+          </tr>
+          <tr>
+            <td class="foot-text" colspan="2">Check out our unbeatable <span class="bold">shared hosting</span> packages. Great for hobbyists and small business store-fronts. Hosting packages starting at under $5.00/mo.</td>
+          </tr>
+          <tr>
+            <td class="foot-bluelink" colspan="2" style="padding-top:2px"><a href="https://glowhost.com/web-hosting-service/best_shared_web_hosting.html" target="_blank">learn more</a></td>
+          </tr>
+        </table></td>
+      <td width="251" valign="top" style="background:url(/error-pages-content/seperator2.gif) no-repeat center right; padding-right:6px; padding-left:6px"><table width="230" border="0" cellspacing="2" cellpadding="0">
+          <tr>
+            <td colspan="2">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="27%"><img src="/error-pages-content/reseller.jpg" alt="" height="46" /></td>
+            <td  class="foot-title" width="73%">Reseller Hosting</td>
+          </tr>
+          <tr>
+            <td class="foot-text" colspan="2"><span class="bold">Reseller Hosting</span> is perfect for design companies, developers, or web site owners who have multiple sites. Each site has it's own control panel and an admin panel for you is included.</td>
+          </tr>
+          <tr>
+            <td class="foot-bluelink" colspan="2" style="padding-top:2px"><a href="https://glowhost.com/web-hosting-service/reseller-web-hosting.html" target="_blank">learn more</a></td>
+          </tr>
+        </table></td>
+      <td width="235" valign="top" style="background:url(/error-pages-content/seperator2.gif) no-repeat center right; padding-right:6px; padding-left:6px"><table width="223" border="0" cellspacing="2" cellpadding="0">
+          <tr>
+            <td colspan="2">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="27%"><img src="/error-pages-content/managed_footer.jpg" alt="" width="48" height="46" /></td>
+            <td  class="foot-title" width="73%">Managed Hosting</td>
+          </tr>
+          <tr>
+            <td class="foot-text" colspan="2"><span class="bold">Managed Dedicated Servers</span> plus our genius Systems Administrators means you have a powerful server and your own 24/7/365 virtual IT team included in a low monthly price.</td>
+          </tr>
+          <tr>
+            <td class="foot-bluelink" colspan="2" style="padding-top:2px"><a href="https://glowhost.com/web-hosting-service/dedicated-servers/managed-hosting-and-managed-dedicated-servers.html" target="_blank">learn more</a></td>
+          </tr>
+        </table></td>
+      <td width="235" valign="top" style="padding-left:6px"><table  width="229" border="0" cellspacing="2" cellpadding="0">
+          <tr>
+            <td colspan="2">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="16%"><img src="/error-pages-content/dedicated.jpg" alt="" height="46" /></td>
+            <td  class="foot-title" width="84%">Dedicated Hosting</td>
+          </tr>
+          <tr>
+            <td class="foot-text" colspan="2"><span class="bold">Dedicated Servers</span> - for the ultimate in power and reliability, these machines are for serious business. Choose managed service with cPanel or unmanaged and any OS you like.</td>
+          </tr>
+          <tr>
+            <td class="foot-bluelink" colspan="2" style="padding-top:2px"><a href="https://glowhost.com/web-hosting-service/dedicated-servers.html" target="_blank">learn more</a></td>
+          </tr>
+        </table></td>
+    </tr>
+  </table>
+</div>
+</div>
+</body>
+</html>

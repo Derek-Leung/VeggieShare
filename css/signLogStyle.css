@@ -8,6 +8,7 @@ body {
 	background: linear-gradient(rgba(0, 0, 0, 0.5), #000000 75%);
     background-size: cover;
     margin: 0;
+    text-align: center;
 
 }
 
@@ -15,6 +16,14 @@ body {
     width: 100%;
     margin: auto auto;
     position: absolute;
+
+}
+
+.update-container {
+    width: 100%;
+    margin: auto auto;
+    position: absolute;
+    text-align: center;
 
 }
 
@@ -36,6 +45,15 @@ body {
     background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg/1200px-Good_Food_Display_-_NCI_Visuals_Online.jpg") no-repeat;
     background-size: cover;
     border-radius: 10px;
+}
+
+.signup-form-1 {
+    background: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/VCHXZQKsxil3lhgr4/footage-modern-neon-sign-on-dark-background-frame-banner-4k-animation_saz11vg1e_thumbnail-full01.png") no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 30px;
+    width: 80%;
+    margin: auto;
 }
 
 .sign-back {
@@ -138,4 +156,73 @@ input[type="checkbox"] {
 #validity {
     text-align:center;
     color:red;
+}
+
+.close-bttn {
+    transform:translate(0, 9px);
+}
+
+.btn-update {
+    text-align: center;
+}
+
+.center-div
+{
+  position: absolute;
+  margin: auto;
+  top: 25%;
+  right: 0;
+  left: 0;
+  border-radius: 3px;
+  color: #ffffff;
+}
+
+select {
+   -webkit-appearance: button;
+   -webkit-border-radius: 2px;
+   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+   -webkit-padding-end: 20px;
+   -webkit-padding-start: 2px;
+   -webkit-user-select: none;
+   background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+   background-position: 97% center;
+   background-repeat: no-repeat;
+   border: 1px solid #AAA;
+   color: #555;
+   font-size: inherit;
+   margin: 20px;
+   overflow: hidden;
+   padding: 5px 10px;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   width: 300px;
+}
+
+select {
+   color: #000000;
+   background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#e2ad00, #e2ad00 70%, #000000);
+   background-color: #e2ad00;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   padding-left: 15px;
+}
+
+.search-spc {
+    padding: 25px 0px;
+}
+
+.search-spc-in {
+    padding: 17px;
+    display: inline;
+}
+
+.search-form {
+    background: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/VCHXZQKsxil3lhgr4/footage-modern-neon-sign-on-dark-background-frame-banner-4k-animation_saz11vg1e_thumbnail-full01.png") no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 30px 0px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
 }
